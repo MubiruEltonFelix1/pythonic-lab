@@ -70,3 +70,21 @@ Pre-Experiment 0 teaches:
 
 Experiment 1 teaches:
 - "how Python talks to that object"
+
+## Checkpoint Quiz (Before You Move On)
+
+Try these without looking at the script first.
+
+1. What is the difference between a class and an object?
+2. In the `Playlist` example, name one attribute and one method.
+3. Why can two playlist objects have different songs even if they come from the same class?
+4. If you call `play()` on an empty playlist, what should happen in our pre-experiment?
+5. Why is this pre-experiment useful before learning dunder methods?
+
+## Quick Answer Key
+
+1. A class is the blueprint; an object is a real instance created from that blueprint.
+2. Example attribute: `songs` or `name`; example method: `add_song`, `play`, or `describe`.
+3. Each object has its own instance data, so their attribute values can differ.
+4. It should return a friendly message saying there are no songs yet.
+5. It builds the OOP foundation, so dunder methods feel like an extension instead of a new world.
